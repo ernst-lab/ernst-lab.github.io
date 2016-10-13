@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<a name="welcome"></a>
+<h2 data-magellan-destination="welcome">Welcome</h2>
+{% capture welcome %}{% include welcome.md %}{% endcapture %}
+{{ welcome | markdownify }}
+
+<a name="research"></a>
+<h2 data-magellan-destination="research">Research</h2>
+{% capture research %}{% include research.md %}{% endcapture %}
+{{ research | markdownify }}
+
+<a name="publications"></a>
+<h2 data-magellan-destination="publications">Publications</h2>
+{% capture publications %}{% include publications.md %}{% endcapture %}
+{{ publications | markdownify }}
+
+<a name="members"></a>
+<h2 data-magellan-destination="members">Members</h2>
+{% capture members %}{% include members.md %}{% endcapture %}
+{{ members | markdownify }}
+
+<a name="photos"></a>
+<h2 data-magellan-destination="photos">Photos</h2>
+{% capture photos %}{% include photos.md %}{% endcapture %}
+{{ photos | markdownify }}
+
+<a name="alumni"></a>
+<h2 data-magellan-destination="alumni">Alumni</h2>
+{% capture alumni %}{% include alumni.md %}{% endcapture %}
+{{ alumni | markdownify }}

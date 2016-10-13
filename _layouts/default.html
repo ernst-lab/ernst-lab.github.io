@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+      <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+      <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
+    </head>
+
+  <body>
+
+    <nav data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+            <dd data-magellan-arrival="welcome"><a href="#welcome">Welcome</a></dd>
+            <dd data-magellan-arrival="research"><a href="#research">Research</a></dd>
+            <dd data-magellan-arrival="publications"><a href="#publications">Publications</a></dd>
+            <dd data-magellan-arrival="members"><a href="#members">Members</a></dd>
+            <dd data-magellan-arrival="photos"><a href="#photos">Photos</a></dd>
+            <dd data-magellan-arrival="alumni"><a href="#alumni">Alumni</a></dd>
+        </dl>
+    </nav>
+
+    <section class="row">
+        {{ content }}
+    </section>
+
+    <script src="{{ "/js/vendor/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/vendor/foundation.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/vendor/foundation.magellan.js" | prepend: site.baseurl }}"></script>
+    <script>
+      $(document).foundation()
+    </script>
+
+  </body>
+
+</html>
