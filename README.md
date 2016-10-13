@@ -5,3 +5,40 @@ Intended to share research objectives and member information.
 
 **Note:** Code on the developer branch will not be published. When ready for publishing,
 please create and use a `master` branch
+
+### Contributing to development
+
+- Clone the project on your own machine using:
+
+```sh
+git clone https://github.com/ernst-lab/ernst-lab.github.io.git
+```
+
+- To render the website on your own computer, first ensure
+[`RubyGems`](https://rubygems.org/pages/download) is installed with:
+
+```sh
+gem -v
+```
+
+- Install [`jekyll`](https://jekyllrb.com/) with:
+
+```sh
+gem install jekyll bundler
+```
+
+- cd into `ernst-lab.github.io` and render the website on a local server with:
+
+```sh
+cd ernst-lab.github.io
+jekyll serve
+```
+
+- To contribute to the `developer branch`, please commit any changes within
+`ernst-lab.github.io` and push to the developer branch:
+
+```sh
+git add <changed_file(s)>
+git commit -m 'change performed'
+git push origin develop
+```
