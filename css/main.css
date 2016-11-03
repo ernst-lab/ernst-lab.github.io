@@ -1,3 +1,27 @@
+/*Header*/
+#group {
+    margin-top: 2em;
+}
+
+#name {
+    margin-top: 3em;
+}
+
+#logo {
+    margin: 4em 0 0 0;
+}
+
+#helmet {
+    width: 13%;
+    display: inline;
+}
+
+#msu {
+    width: 45%;
+    display: inline;
+}
+
+/*Navigation bar*/
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
     background: #18453B !important;
 }
