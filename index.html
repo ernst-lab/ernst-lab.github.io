@@ -19,8 +19,9 @@ layout: default
 
 <a name="members"></a>
 <h2 data-magellan-destination="members">Members</h2>
-{% capture members %}{% include members.md %}{% endcapture %}
-{{ members | markdownify }}
+{% for member in site.members %}
+  {{ member.output }}
+{% endfor %}
 
 <a name="photos"></a>
 <h2 data-magellan-destination="photos">Photos</h2>
@@ -29,5 +30,6 @@ layout: default
 
 <a name="alumni"></a>
 <h2 data-magellan-destination="alumni">Alumni</h2>
-{% capture alumni %}{% include alumni.md %}{% endcapture %}
-{{ alumni | markdownify }}
+{% for member in site.alumni %}
+  {{ member.output }}
+{% endfor %}

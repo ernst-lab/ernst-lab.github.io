@@ -25,3 +25,8 @@
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
     background: #18453B !important;
 }
+
+/*Members and alumni*/
+#bio {
+    margin-top: 1em;
+}
