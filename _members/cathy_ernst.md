@@ -2,7 +2,7 @@
 layout: team
 name: Dr. Cathy Ernst
 position: Principle Investigator
-picture: /images/team/cathy_ernst.jpg
+picture: /images/team/cathy_ernst.JPG
 email: ernstc@msu.edu
 ---
 
