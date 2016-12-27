@@ -2,7 +2,7 @@
 layout: team
 name: Nancy Raney
 position: Lab Manager
-picture: /images/team/nancy_raney.jpg
+picture: /images/photos/ernst_raney.jpg
 email: raney@msu.edu
 ---
 
