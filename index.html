@@ -13,7 +13,7 @@ layout: default
 {{ research | markdownify }}
 
 <a name="publications"></a>
-<h2 data-magellan-destination="publications">Publications</h2>
+<h2 data-magellan-destination="publications">Selected Publications</h2>
 {% capture publications %}{% include publications.md %}{% endcapture %}
 {{ publications | markdownify }}
 
@@ -23,10 +23,11 @@ layout: default
   {{ member.output }}
 {% endfor %}
 
-<a name="photos"></a>
+<!-- <a name="photos"></a>
 <h2 data-magellan-destination="photos">Photos</h2>
-{% capture photos %}{% include photos.md %}{% endcapture %}
-{{ photos | markdownify }}
+{% for photo in site.photos %}
+  {{ photo.output }}
+{% endfor %} -->
 
 <a name="alumni"></a>
 <h2 data-magellan-destination="alumni">Alumni</h2>

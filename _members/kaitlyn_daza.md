@@ -1,8 +1,8 @@
 ---
 layout: team
-name: Kaitlyn Daza (Perry)
+name: Kaitlyn Daza
 position: Animal Science PhD Candidate
-picture: 
+picture: /images/team/kaitlyn_daza.jpg
 email: perrykai@msu.edu
 ---
 

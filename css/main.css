@@ -30,3 +30,11 @@
 #bio {
     margin-top: 1em;
 }
+
+/*Photos*/
+figure {
+    text-align: center;
+    display: table;
+    max-width: 50%; /* demo; set some amount (px or %) if you can */
+    margin: 20px auto; /* not needed unless you want centered */
+}
