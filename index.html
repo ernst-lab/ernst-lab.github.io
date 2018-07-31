@@ -12,11 +12,6 @@ layout: default
 {% capture research %}{% include research.md %}{% endcapture %}
 {{ research | markdownify }}
 
-<a name="publications"></a>
-<h2 data-magellan-destination="publications">Selected Publications</h2>
-{% capture publications %}{% include publications.md %}{% endcapture %}
-{{ publications | markdownify }}
-
 <a name="members"></a>
 <h2 data-magellan-destination="members">Members</h2>
 {% for member in site.members %}
@@ -34,3 +29,8 @@ layout: default
 {% for member in site.alumni %}
   {{ member.output }}
 {% endfor %}
+
+<a name="publications"></a>
+<h2 data-magellan-destination="publications">Selected Publications</h2>
+{% capture publications %}{% include publications.md %}{% endcapture %}
+{{ publications | markdownify }}
