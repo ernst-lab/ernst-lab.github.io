@@ -12,17 +12,17 @@ layout: default
 {% capture research %}{% include research.md %}{% endcapture %}
 {{ research | markdownify }}
 
+<!-- <a name="research"></a>
+<h2 data-magellan-destination="research">Research</h2>
+{% for research in site.research %}
+  {{ research.output }}
+{% endfor %} -->
+
 <a name="members"></a>
 <h2 data-magellan-destination="members">Members</h2>
 {% for member in site.members %}
   {{ member.output }}
 {% endfor %}
-
-<!-- <a name="photos"></a>
-<h2 data-magellan-destination="photos">Photos</h2>
-{% for photo in site.photos %}
-  {{ photo.output }}
-{% endfor %} -->
 
 <a name="alumni"></a>
 <h2 data-magellan-destination="alumni">Alumni</h2>
@@ -34,3 +34,9 @@ layout: default
 <h2 data-magellan-destination="publications">Selected Publications</h2>
 {% capture publications %}{% include publications.md %}{% endcapture %}
 {{ publications | markdownify }}
+
+<a name="photos"></a>
+<h2 data-magellan-destination="photos">Photos</h2>
+{% for photo in site.photos %}
+  {{ photo.output }}
+{% endfor %}
