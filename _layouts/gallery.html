@@ -1,8 +1,34 @@
-<div class="row gallery">
+<head>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 225px;
+    height: 270px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class=" gallery">
     <a target="_blank" href="{{ page.link }}">
-      <img src="{{ page.link }}">
+      <img src="{{ page.link }}" width=500px height=500px>
     </a>
-    <div class="desc">
-        {{ content }}
-    </div>
+    <div class="desc">{{ page.description }}</div>
 </div>
+</body>
