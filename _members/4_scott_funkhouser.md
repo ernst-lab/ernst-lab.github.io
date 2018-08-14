@@ -1,8 +1,9 @@
 ---
-layout: team
+layout: members
 name: Scott Funkhouser
 position: Genetics PhD student
 picture: /images/team/scott-funkhouser.jpg
+pic_name: member
 email: funkhou9@msu.edu
 ---
 
