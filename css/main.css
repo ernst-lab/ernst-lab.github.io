@@ -21,6 +21,61 @@
     display: inline;
 }
 
+#fat_eqtl {
+    margin-top: 1em;
+    margin-right: 1em;
+    float: left;
+    width: 450px;
+    height: 480px;
+}
+
+#member {
+    float: left;
+    width: 15%;
+    margin-right: 1em;
+}
+
+#ernst {
+    float: left;
+    width: 15%;
+    margin-right: 1em;
+}
+
+#corbett {
+    float: left;
+    width: 15%;
+    margin-right: 1em;
+}
+
+#raney {
+    float: left;
+    width: 15%;;
+    margin-right: 1em;
+}
+
+#RNA_editing {
+    margin-top: 1em;
+    margin-left: 1em;
+    float: right;
+    width: 600px;
+    height: 350px;
+}
+
+#SM_development {
+    margin: 0 0 0 0;
+    float: right;
+}
+
+#gene_assoc {
+    margin: 0 0 0 0;
+    float: right;
+}
+
+#meth {
+    margin: 0 0 0 0;
+    float: right;
+}
+
 /*Navigation bar*/
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
     background: #18453B !important;
@@ -29,7 +84,10 @@
 /*Members and alumni*/
 #bio {
     margin-top: 1em;
+    clear: left;
 }
+
+
 
 /*Photos*/
 figure {
