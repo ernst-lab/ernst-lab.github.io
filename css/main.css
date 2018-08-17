@@ -3,21 +3,27 @@
     margin-top: 2em;
 }
 
+#head {
+    margin-top: 2em;
+    text-align: center;
+}
+
 #name {
     margin-top: 3em;
 }
 
 #logo {
     margin: 2em 0 0 0;
+    width: 20%;
 }
 
 #helmet {
-    width: 13%;
+    width: 6%;
     display: inline;
 }
 
 #msu {
-    width: 45%;
+    width: 30%;
     display: inline;
 }
 
@@ -95,4 +101,8 @@ figure {
     display: table;
     max-width: 50%; /* demo; set some amount (px or %) if you can */
     margin: 20px auto; /* not needed unless you want centered */
+}
+
+#lab_photo {
+    width: 60%;
 }
