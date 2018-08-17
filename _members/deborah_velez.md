@@ -3,6 +3,7 @@ layout: members
 name: Deborah Velez-Irizarry
 position: Animal Science PhD Candidate
 picture: /images/team/deborah-velez-irizarry.jpg
+pic_name: member
 email: velezdeb@msu.edu
 ---
 
