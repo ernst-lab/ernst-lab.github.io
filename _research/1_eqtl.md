@@ -1,0 +1,11 @@
+---
+layout: research
+title: Expression Quantitative Trait Loci 
+picture: /images/research/muscle_eqtl.png
+picture_name: muscle_eqtl
+---
+
+The application of genomic technologies is enhancing pig genetic improvement. Genome-wide analyses have revealed genomic regions harboring single nucleotide polymorphisms (SNPs) contributing significant portions of phenotypic trait variation. However, the molecular mechanisms underlying these contributions remain unclear. We aim to identify expression quantitative trait loci (eQTL) in the F2 generation of the Michigan State University Pig Resource Population (MSUPRP) to elucidate the genetic architecture of gene expression variation and gain insight on the genetic contribution underlying differences in polygenic traits. Associating gene expression profiles with genome-wide SNP markers reveals both local and distal regulators of gene expression. Local eQTL identify candidate loci directly influencing the expression of the associated gene and thus infers direct cause of variation in gene expression. Distal eQTL identify candidate gene-gene interactions where the expression of one gene may affect the expression of distant genes through transcriptional co-regulation. As sequencing costs go down, eQTL studies have the potential to be incorporated into expression-assisted evaluations in animal breeding by the use of genetical genomic selection of both phenotypic QTL and expression QTL. Our lab is currently conducting eQTL studies utilizing genotype and transcriptomic data (mRNA and miRNA) from adipose and skeletal muscle tissues to identify genomic loci influencing gene expression and economically-important pig-production phenotypes related to growth, meat quality, and carcass composition.
+
+__Related Publications & Presentations:__
+1. Daza, K.R., D. Velez-Irizarry, S. Casiro, J.P. Steibel, N.E. Raney, R.O. Bates and C.W. Ernst (2018). *Genomic Co-localization of microRNA expression QTL target genes with phenotypic QTL in the Michigan State University Duroc x Pietrain pig resource population.* Oral and Poster presentation given at the Plant and Animal Genomes XXVI meeting in San Diego, CA. [Abstract](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/30021)
