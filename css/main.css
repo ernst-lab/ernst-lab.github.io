@@ -27,7 +27,7 @@
     display: inline;
 }
 
-#fat_eqtl {
+#muscle_eqtl {
     margin-top: 1em;
     margin-right: 1em;
     float: left;
@@ -47,11 +47,8 @@
 }
 
 #RNA_editing {
-    margin-top: 1em;
-    margin-left: 1em;
+    margin: 0 0 0 0;
     float: right;
-    width: 600px;
-    height: 350px;
 }
 
 #SM_development {
