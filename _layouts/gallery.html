@@ -1,4 +1,3 @@
-<head>
 <style>
 div.gallery {
     margin: 5px;
@@ -22,13 +21,10 @@ div.desc {
     text-align: center;
 }
 </style>
-</head>
-<body>
 
 <div class=" gallery">
-    <a target="_blank" href="{{ page.link }}">
-      <img src="{{ page.link }}" width=500px height=500px>
+    <a target="_blank" href="{{ page.href }}">
+      <img src="{{ page.link }}">
     </a>
     <div class="desc">{{ page.description }}</div>
 </div>
-</body>
