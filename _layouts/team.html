@@ -1,14 +1,7 @@
-<div class="row team">
-    <div class="small-2 columns">
-        <img id="photo" src="{{ page.picture }}">
-    </div>
-    <div class="small-10 columns">
-        <h3>{{ page.name }}</br>
-            <small>{{ page.position }}</small></br>
-            <small>{{ page.degree }}</small></br>   
+<section>
+        <img id= {{ page.pic_name }} src="{{ page.picture }}">
+        <h3 id='alumni_head'> {{ page.name }}</br>
+            <small>{{ page.degree }}</small></br>
+            <small>{{ test  }}</small></br>   
         </h3>
-    </div>
-    <div id="bio" class="small-12 columns">
-        {{ content }}
-    </div>
-</div>
+</section>

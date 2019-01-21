@@ -27,6 +27,14 @@
     display: inline;
 }
 
+section {
+    clear: left;
+}
+
+#publications {
+    clear: left;
+}
+
 #muscle_eqtl {
     margin-top: 1em;
     margin-right: 1em;
@@ -77,6 +85,14 @@
 }
 
 #alumni {
+    clear: left;
+}
+
+#alumni_pic {
+    width: 120px;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    float: left;
     clear: left;
 }
 

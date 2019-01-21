@@ -7,11 +7,6 @@ layout: default
 {% capture welcome %}{% include welcome.md %}{% endcapture %}
 {{ welcome | markdownify }}
 
-<!-- a name="research"></a>
-<h2 data-magellan-destination="research">Research</h2>
-{% capture research %}{% include research.md %}{% endcapture %}
-{{ research | markdownify }} -->
-
 <a name="research"></a>
 <h2 data-magellan-destination="research">Research</h2>
 {% for research in site.research %}
@@ -31,7 +26,7 @@ layout: default
 {% endfor %}
 
 <a name="publications"></a>
-<h2 data-magellan-destination="publications">Selected Publications</h2>
+<h2 id='publications' data-magellan-destination="publications">Selected Publications</h2>
 {% capture publications %}{% include publications.md %}{% endcapture %}
 {{ publications | markdownify }}
 
