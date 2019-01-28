@@ -1,7 +1,7 @@
 ---
 layout: research
 title: DNA Methylation 
-picture:
+picture: /images/research/meth.png
 picture_name: meth 
 ---
 
