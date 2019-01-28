@@ -1,7 +1,7 @@
 ---
 layout: research
 title: Transcriptional Profiling of Developing Pig Skeletal Muscle Tissue 
-picture: 
+picture: /images/research/muscle_expr.png 
 picture_name: SM_development 
 ---
 
