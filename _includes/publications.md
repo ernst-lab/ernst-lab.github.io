@@ -1,4 +1,6 @@
-1. Wurtz, K.E. J.M. Siegford, C.W. Ernst, N.E. Raney, R.O. Bates and J.P. Steibel. 2018. Genome-wide association analyses of lesion scores in group-housed pigs. Anim. Genet. In press. doi: 10.1111/age.12713
+1. Velez-Irizarry D., Casiro S., Daza K.R., Bates R.O., Raney N.E., Steibel J.P. and Ernst C.W. 2019. Genetic control of longissimus dorsi muscle gene expression variation and joint analysis with phenotypic quantitative trait loci in pigs. BMC Genomics. 20(1):3. doi: 10.1186/s12864-018-5386-2
+
+1. Wurtz, K.E. J.M. Siegford, C.W. Ernst, N.E. Raney, R.O. Bates and J.P. Steibel. 2018. Genome-wide association analyses of lesion counts in group-housed pigs. Anim. Genet. 49(6):628-31. doi: 10.1111/age.12713
 
 1. Zhao, P., Y. Wu, W. Feng, H. Du, J. Yu, H. Kang, X. Zheng, Z. Wang, G.E. Liu, C.W. Ernst, X. Ran, J. Wang and J.-F. Liu. 2018. Evidence of evolutionary history and selective sweep in the genome of Meishan pig reveals its genetic and phenotypic characterization. Gigascience. 7:1-12. doi: 10.1093/gigascience/giy058
 
