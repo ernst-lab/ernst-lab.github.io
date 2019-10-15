@@ -1,6 +1,6 @@
 ---
 layout: team
-name: Scott Funkhosuer, PhD
+name: Scott Funkhouser, PhD
 position: Graduate Student 
 degree: PhD, Genetics & Quantitative Biology (2019)
 picture: images/team/scott-funkhouser.jpg
